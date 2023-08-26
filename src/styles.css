@@ -120,10 +120,7 @@ header {
 }
 header .bg-mobile {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
 }
 header .logo {
     width: 90px;
@@ -264,4 +261,46 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 66px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 80px;
+    width: 100%;
+    background-color: hsl(201deg 7.25% 96.69%);
+}
+footer img {
+    width: 50px;
+}
+.links-div {
+    display: grid;
+    place-items: center;
+}
+.links-div ul {
+    list-style: none;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 26px;
+}
+.links-div ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+    font-weight: 500;
+}
+.social-media-div {
+    display: flex;
+    gap: 40px;
+}
+.social-media-div img {
+    cursor: pointer;
+    width: 24px;
+}
+.attribution {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
