@@ -131,6 +131,7 @@ header .logo {
 main {
     display: grid;
     gap: 160px;
+    padding-bottom: 140px;
 }
 .download-section {
     display: grid;
@@ -154,6 +155,7 @@ main {
 .download-section div p {
     font-size: 1.4rem;
     color: var(--grayish-blue);
+    line-height: 2.4rem;
 }
 .download-section .buttons {
     width: 60%;
@@ -256,4 +258,10 @@ main {
     font-size: 1.4rem;
     color: var(--grayish-blue);
     line-height: 2.2rem;
+}
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
 }
