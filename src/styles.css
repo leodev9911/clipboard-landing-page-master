@@ -155,7 +155,12 @@ main {
     line-height: 2.4rem;
 }
 .download-section .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
     width: 60%;
+    max-width: 500px;
 }
 .download-section .buttons a {
     display: grid;
@@ -303,4 +308,7 @@ footer img {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+@media(min-width: 1000px) {
+    
 }
