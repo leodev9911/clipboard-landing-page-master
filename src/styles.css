@@ -185,10 +185,6 @@ main {
     text-align: center;
     width: 70%;
 }
-.section {
-    text-align: center;
-    width: 70%;
-}
 .section h2 {
     font-size: 1.8rem;
     color: var(--dark-grayish-blue);
@@ -217,4 +213,47 @@ main {
 .first-section .properties p {
     font-size: 1.4rem;
     color: var(--grayish-blue);
+}
+.second-section {
+    display: grid;
+    place-items: center;
+    gap: 56px;
+}
+.second-section figure {
+    display: grid;
+    place-items: center;
+}
+.second-section img {
+    width: 84%;
+}
+.third-section {
+    display: grid;
+    place-items: center;
+    gap: 80px;
+    text-align: center;
+}
+.third-section .section h2 {
+    font-size: 2.4rem;
+}
+.cards-div {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    align-items: center;
+}
+.cards {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    width: 80%;
+    
+}
+.cards h2 {
+    font-size: 1.8rem;
+    color: var(--dark-grayish-blue);
+}
+.cards p {
+    font-size: 1.4rem;
+    color: var(--grayish-blue);
+    line-height: 2.2rem;
 }
